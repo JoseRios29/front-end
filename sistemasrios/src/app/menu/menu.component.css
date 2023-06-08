@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    color: #333;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-button:hover {
+    background-color: #f8e71c;
+    color: #fff;
+  }
+  

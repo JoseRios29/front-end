@@ -1,0 +1,64 @@
+.persona-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .persona-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .btn-agregar {
+    padding: 10px 20px;
+    background-color: #f8e71c;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .tabla-personas {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-personas th,
+  .tabla-personas td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .tabla-personas th {
+    background-color: #f8e71c;
+    color: #333;
+  }
+  
+  .tabla-personas td input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-editar {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-eliminar {
+    padding: 5px 10px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+      
